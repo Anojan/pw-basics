@@ -1,0 +1,23 @@
+{
+  "name": "playwright-e2e-project",
+  "version": "1.0.0",
+  "description": "End-to-end testing project using Playwright",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "e2e",
+    "testing"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.0.0"
+  },
+  "devDependencies": {}
+}
